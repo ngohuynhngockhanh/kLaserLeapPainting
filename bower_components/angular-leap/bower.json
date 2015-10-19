@@ -1,0 +1,27 @@
+{
+  "author": "Robin Böhm",
+  "name": "angular-leap",
+  "description": "A set of directives and services for easy usage of the leapjs API for leapmotion devices inside of AngularJS",
+  "version": "1.0.1",
+  "homepage": "https://github.com/angular-leap/angular-leap",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:angular-leap/angular-leap.git"
+  },
+  "main": "./build/angular-leap.js",
+  "ignore": [
+      ".jshintrc",
+      ".gitignore",
+      "/*.js*",
+      "/*.yml",
+      "test",
+      "src"
+  ],
+  "dependencies": {
+    "angular": ">1.0.7",
+    "leapjs": "0.x"
+  },
+  "devDependencies": {
+    "angular-mocks": ">1.0.7"
+  }
+}

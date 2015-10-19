@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<script src="http://js.leapmotion.com/leap-0.6.3.js"></script>
+<script src="http://js.leapmotion.com/leap-plugins-0.1.8.js"></script>
+
+<div id=output></div>
+
+<script>
+	var output = document.getElementById('output');
+	Leap.loop(function (frame) {
+		output.innerHTML = 'Frame: ' + frame.id;
+   	
+	});
+</script>
